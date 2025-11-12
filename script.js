@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Kết nối Socket.IO
-    const socket = io();
+    const socket = io('https://caro-online-game.onrender.com');
     
     // Biến toàn cục
     let currentRoomCode = null;
